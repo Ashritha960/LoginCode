@@ -88,7 +88,11 @@ public class EntryController {
 	  
 	  }
 	 
-	
+	  @RequestMapping(value="/billprocess",method=RequestMethod.GET)
+	public String bill()
+	{
+		return "Bill";
+	}
 	
 	
 }

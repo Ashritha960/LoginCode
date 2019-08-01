@@ -15,33 +15,36 @@
 	<table>
 	<tr>
 	
-	<td><b>BILL_ID</b></td>
+	<td><b>BillNumber:</b></td>
 	<td>backend_value</td>
 	</tr>
 	<tr>
-	<td><b>CUSTOMER_NAME</b></td>
+	<td><b>CustomerName:</b></td>
 	<td>backend_value</td>
 	</tr>
+	
 	<tr>
-	<td><b>PRODUCT_DETAILS</b></td>
-	<td>
+	<td><b>CustomerPhone:</b></td>
+	<td>backend_value</td>
+	</tr>
+	</table>
+	
+	
+	
+	<b>PRODUCT_DETAILS</b><br>
+	
+	
 	   <table border="1">
 	     <tr>
-	        <th>Id</th>
-	        <th>FoodName</th>
-	        <th>Quantity</th>
+	        <th>FoodItemName</th>
 	        <th>Price</th>
+	        <th>Quantity</th>
 	        <th>Amount</th>
 	     </tr>
 	     
 	   
 	   </table>
 	
-	
-	</td>
-	</tr>
-	
-	</table>
 	
 	</form:form>
   
